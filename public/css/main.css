@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Cairo";
+  /*  src: url("/public/assets/fonts/Cairo-VariableFont_slnt,wght.ttf");
+   */ 
+   src: url("/fonts/Cairo-VariableFont_slnt,wght.ttf");
+}
+body{
+    font-family: "Cairo"!important;
+}
+
+
+
+/*
+
+for Breadcrumb component
+**/
+.breadcrumb-item+.breadcrumb-item::before{
+    float: right!important;
+    padding-left: 0.5rem!important;
+    padding-right: 0rem!important;
+}
+
+/*  //////////////////////////                    */
+.accordion-button::after {
+    margin-right: auto!important;
+    margin-left: unset!important;
+}
+
+
+table tbody tr td{
+    line-height: 4!important;
+}
